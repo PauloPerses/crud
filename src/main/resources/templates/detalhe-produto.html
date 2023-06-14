@@ -31,6 +31,12 @@
 					<span th:text="${produto.preco}"></span>
 				</td>
 			</tr>
+			<tr>
+				<th>Quantidade:</th>
+				<td>
+					<span th:text="${produto.quantidade}"></span>
+				</td>
+			</tr>
 		</table>
 		<a th:href="@{/produto/list}">Lista</a>
 	</body>

@@ -15,7 +15,7 @@ import br.com.belval.crud.repository.ProdutoRepository;
 
 
 @Controller
-public class ProdutoController {
+public class ClienteController {
 	
 	//private static List<Produto> listaProdutos = new ArrayList<Produto>();
 	//private static int proxId = 1;
